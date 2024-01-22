@@ -1,0 +1,74 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+h1,h3{
+    color: #38686A;
+    font-size: 40px;
+}
+body{
+    background-color: #A3B4A2;
+    text-align: center;   
+}
+section{
+    margin-top: 50px;
+}
+.container{
+    
+    height:600px;
+    text-align: center;
+    justify-content: center;
+    
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    position: relative;
+    height: 30%;
+    width: 30%;
+    margin: 5px;
+    border: none;
+    border-radius: 10px;
+    border:2px solid #38686A;
+    box-shadow: 0 0 1rem rgb(0 ,0,0 ,0.1);
+}
+.game-box{
+    padding: 0;
+    margin: 0;
+    height: 400px;
+    width: 400px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    font-size: 25px;
+    background-color: #CDC6AE;
+    color: black;
+}
+button:hover{
+    background-color: #A3B4A2;
+}
+#reset{
+    width: 200px;
+    height: 50px;
+    margin-bottom: 100px;
+    color: #38686A;
+}
+
+/** output result printing**/
+
+p{
+    font-size: 2rem;
+    color: #0B2027;
+    padding-top: 30px;
+}
+
+/* button for reset
+<button id="reset" inputmode="reset">RESET GAME</button>
+*/
